@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+}
+h1 {
+    font-size: 300px;
+}
+
+
+
+.bodyTitle {
+    margin: auto;
+    align-content: center;
+    width: 100px;
+    
+}
+
+#sidebar {
+    height: 100%;
+    width: 100px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    float:left;
+    display:block;
+    
+}
+
+#wrapper{
+    margin:0 auto;
+}
+#content {
+    float:left;
+    margin-left: 100px;
+    border: 1px solid white;
+    width:90%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    background-color: white;
+}
+#ProfilePic {
+    padding-left: 110px;
+    clear:both;
+    float:left;
+}
+#Info {
+    text-align: center;
+    font-size: 150%;
+    padding-right:250px
+}
